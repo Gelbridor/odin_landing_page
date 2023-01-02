@@ -40,7 +40,50 @@ ul {
     
 }
 
-
 .hero-left {
     max-width: 400px
+}
+
+.middle-section {
+    margin-bottom: 80px;
+}
+
+.middle-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.image-item {
+    max-width: 200px;
+    text-align: center;
+    flex: 1;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    display: flex;
+    max-width: 400px;
+}
+
+.quote-author {
+ padding-left: 190px;
+
 }
